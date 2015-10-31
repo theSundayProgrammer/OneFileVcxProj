@@ -1,6 +1,6 @@
-####One File MSBuild Project####
+###One File MSBuild Project###
 
-###Motivation###
+####Motivation####
 I was building a few single file projects all having the same the include
 folders, liibrary folders, the same libraries and the same destination folder.
 It is rather painful to copy the vcxproj file, change the filename within this project and the project GUID. So I made the sample project file. Let me illustrate how to use it with an example. Say you have file DoSomthing.cpp and you want to create DoSomething.exe. You have to copy sample.vcxproj to DoSomething.vcxprojand then run this command in the MSbuild command line (console) window:
